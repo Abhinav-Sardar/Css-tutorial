@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+}
+
+#first {
+    background-color: aqua;
+    color: purple;
+}
+
+#second {
+    background-color: blue;
+    color: red;
+}
+
+#third {
+    background-color: yellow;
+    color: orange;
+}
+
+#fourth {
+    background-color: gray;
+    color: greenyellow;
+}
+
+#fifth {
+    background-color: pink;
+    color: seagreen;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+</head>
+
+<body>
+    <style>
+        h1 {
+            color: green;
+        }
+
+        h1 {
+            color: red
+        }
+
+        div {
+            background-color: wheat;
+        }
+        
+
+        #red {
+            background-color: red;
+        }
+        .green, h1 {
+            background-color: green;
+            color: tomato;
+            border:  2px solid indigo;
+        }
+        .brown, h3 {
+            background-color: brown;
+            color: mintcream;
+            border:  2px solid red;
+        }
+        .yellow {
+            background-color: yellow;
+            color:gray;
+            border:  2px solid skyblue;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <div>
+        <h1>My CSS Selector Page</h1>
+        <h1>This is my another CSS Selector Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae laudantium eligendi laboriosam debitis obcaecati repellendus dolorem ea ad. Aliquid, consequatur.</p>
+        <h3>World</h3>
+    </div>
+    <div id="red">Red</div>
+    <span class="green">First tag</span><br>
+    <span class="brown">Second tag</span><br>
+    <span class="yellow">Third tag</span><br>
+</body>
+
+</html>
